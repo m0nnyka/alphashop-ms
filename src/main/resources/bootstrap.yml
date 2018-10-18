@@ -1,0 +1,10 @@
+#App Info
+spring:
+  profiles:
+    active: git
+
+server:
+  port: 8888
+
+
+

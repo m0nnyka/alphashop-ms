@@ -1,0 +1,17 @@
+#Spring Connfig Server Conf   
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Andrax1974/config-repo.git
+          username: test #${github.username}
+          password: test #${github.password}
+          cloneOnStart: true
+          searchPaths: promoartservice
+  application:
+    name: config-server
+   
+      
+      
+     
