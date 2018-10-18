@@ -6,8 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///home/nicola/Documents/git-config
-          #uri: file:///home/nicola/Documents/git-config-repository
+          uri: file:///home/nicola/Documents/git-config-repository
    
       
       

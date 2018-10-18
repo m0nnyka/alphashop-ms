@@ -8,3 +8,6 @@ server:
 
 
 
+#
+#URI:  http://localhost:8888/{application-name}/{profile}[/{label}]
+#
