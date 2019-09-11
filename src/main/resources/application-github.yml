@@ -4,9 +4,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Andrax1974/config-repo.git
-          username: test #${github.username}
-          password: test #${github.password}
+          uri: https://github.com/m0nnyka/alphashop-ms
+          username: m0nnyka #${github.username}
+          password: f*l #${github.password}
           cloneOnStart: true
           searchPaths: promoartservice
   application:

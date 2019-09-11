@@ -1,4 +1,4 @@
-#App Info
+#App Info, di avvio
 spring:
   profiles:
     active: git
@@ -6,7 +6,8 @@ spring:
 server:
   port: 8888
 
-
+#Actuator Properties
+#management.endpoints.web.exposure.include: "*"
 
 #
 #URI:  http://localhost:8888/{application-name}/{profile}[/{label}]
